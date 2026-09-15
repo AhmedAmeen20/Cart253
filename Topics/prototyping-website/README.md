@@ -13,3 +13,8 @@ Tracking my journal: [Weekly journal](journal.md)
 
 # Week 1
 
+https://ahmedameen20.github.io/Cart253/Topics/version-control/version-control-workflow/
+
+## Description
+
+The first week of messing around with numbers, Ahmed's first piece where he expressed himself *numerically*
