@@ -30,6 +30,7 @@ function draw() {
   square(0, 150, 150)
   square(300, 150, 150)
   square(150, 300, 150)
+  
 }
 
 
