@@ -18,3 +18,7 @@ https://ahmedameen20.github.io/Cart253/Topics/version-control/version-control-wo
 ## Description
 
 The first week of messing around with numbers, Ahmed's first piece where he expressed himself *numerically*
+
+# Week 2
+
+ 
