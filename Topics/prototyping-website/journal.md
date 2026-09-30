@@ -16,3 +16,10 @@ My biggest issues were defintely understanding the flow of javascript, especiall
 It's also rewarding seeing your ideas come to life since once you get an idea, it would probably be simple enough to achieve it so once you do that feels great.
 Still getting used to using "commit" more efficiently, looks like i am mixing alot of files when pushing/ pulling.
 I also tried to used colours more, but that is still tricky for me. I want to do more projects that give off 3d effects while having some sort of cool color patterns, Something you'd see on a music visual.
+
+# Week 3
+
+Very fun and diffcult week with P5, older things we learnt became easier yet more difficult to intetgrate with newer stuff. It's very vast and endless stuff to discover and do.
+I am still trying to get comfortable, some stuff i make are better then others, yet the majority of the stuff i make are not as compelling as i want them to be, i want to spend more time just trying out and experimenting with P5.js.
+To be fair, i was a bit lazy with this weeks prototypes, managing my time better this semester is a must at this point.
+I have finally grasped the idea of how functions worked, i don't know if it's the same as functions from school, it could be.
