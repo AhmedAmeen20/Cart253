@@ -25,10 +25,26 @@ The first week of messing around with numbers, Ahmed's first piece where he expr
 # Visual Experiences
 
 ## 1st experience "Day & Night cycle."
-https://ahmedameen20.github.io/Cart253/Topics/Day%20&%20night%20cycle/
+https://ahmedameen20.github.io/Cart253/Topics/Week%201/Day%20&%20night%20cycle/
  
 
 ## 2nd experience "This hurts the brain."
 
-https://ahmedameen20.github.io/Cart253/Topics/P5%20Weird%20Art/
+https://ahmedameen20.github.io/Cart253/Topics/Week%201/P5%20Weird%20Art/
+
+
+# Week 3
+
+## Make The Japanese Flag Angry!
+https://ahmedameen20.github.io/Cart253/Topics/Week%202/Japan%20flag/
+
+
+## Insert Text!
+https://ahmedameen20.github.io/Cart253/Topics/Week%202/Insert%20Text/
+
+
+## Car (Just a Car)
+https://ahmedameen20.github.io/Cart253/Topics/Week%202/car/
+
+
 
