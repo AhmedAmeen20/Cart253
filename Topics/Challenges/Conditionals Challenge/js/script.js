@@ -25,6 +25,7 @@ const user = {
  */
 function setup() {
   createCanvas(400, 400);
+  
 }
 
 /**
@@ -44,18 +45,6 @@ function draw() {
   drawUser();
   drawPuck();
 }
-
-/**
- * Sets the user position to the mouse position
- */
-function moveUser() {
-  user.x = mouseX;
-  user.y = mouseY;
-}
-
-/**
- * Displays the user circle
- */
 function drawUser() {
   push();
   noStroke();
@@ -98,3 +87,14 @@ function movePuck() {
     }
   }
 }
+/**
+ * Sets the user position to the mouse position
+ */
+function moveUser() {
+  user.x = mouseX;
+  user.y = mouseY;
+}
+
+/**
+ * Displays the user circle
+ */
