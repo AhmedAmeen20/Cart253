@@ -1,100 +1,98 @@
 /**
- * Circle Master
+ * The Only Move Is Not To Play
  * Pippin Barr
  *
- * This will be a program in which the user can push a circle
- * on the canvas using their own circle.
+ * A game where your score increases so long as you do nothing.
  */
 
-const puck = {
-  x: 200,
-  y: 200,
-  size: 100,
-  fill: "#ff0000"
-};
+"use strict";
 
-const user = {
-  x: undefined, // will be mouseX
-  y: undefined, // will be mouseY
-  size: 75,
-  fill: "#000000"
-};
+// Current score
+let score = 0;
+
+// Is the game over?
+let gameOver = false;
 
 /**
  * Create the canvas
  */
 function setup() {
   createCanvas(400, 400);
-  
 }
 
+
+
+
+
 /**
- * Move the user circle, check for overlap, draw the two circles
+ * Update the score and display the UI
  */
 function draw() {
-  background("#aaaaaa");
-
-
-  // Move user circle
-  moveUser();
-
-  // move puck
-  movePuck();
+  background("#87ceeb");
   
-  // Draw the user and puck
-  drawUser();
-  drawPuck();
-}
-function drawUser() {
-  push();
-  noStroke();
-  fill(user.fill);
-  ellipse(user.x, user.y, user.size);
-  pop();
-}
-
-/**
- * Displays the puck circle
- */
-function drawPuck() {
-  push();
-  noStroke();
-  fill(puck.fill);
-  ellipse(puck.x, puck.y, puck.size);
-  pop();
-}
-
-function movePuck() {
-  //distance between puck and user
-  const d = dist(user.x, user.y, puck.x, puck.y);
-
-  const overlap = (d < user.size/2 + puck.size/2);
-
-  if (overlap) {
-    let positiondifferncex = user.x - puck.x
-    let positiondifferncey = user.y - puck.y
-    if (positiondifferncex<0) {
-        puck.x = puck.x + 2
-    }
-    if (positiondifferncex>-1) {
-        puck.x = puck.x - 2
-    }
-    if (positiondifferncey<0) {
-        puck.y = puck.y + 2
-    }
-    if (positiondifferncey>-1) {
-        puck.y = puck.y - 2
-    }
+  // Only increase the score if the game is not over
+  if (!gameOver) {
+    // Score increases relatively slowly
+    score += 0.05;
   }
-}
-/**
- * Sets the user position to the mouse position
- */
-function moveUser() {
-  user.x = mouseX;
-  user.y = mouseY;
+  displayUI();
+
 }
 
 /**
- * Displays the user circle
+ * Show the game over message if needed, and the current score
  */
+function displayUI() {
+  if (gameOver) {
+    push();
+    textSize(48);
+    textStyle(BOLD);
+    textAlign(CENTER, CENTER);
+    text("You lose!", width/2, height/3);
+    pop();
+  }
+  displayScore();
+}
+
+/**
+ * Display the score
+ */
+function displayScore() {
+  push();
+  textSize(48);
+  textStyle(BOLD);
+  textAlign(CENTER, CENTER);
+  text(floor(score), width/2, height/2);
+  pop();
+}
+
+function mousePressed() {
+  lose();
+}
+
+function mouseMoved(){
+  lose();
+}
+
+function lose (){
+  gameOver = true;
+  score = 0;
+}
+
+// function lose() {
+//   if (mouseIsPressed) {
+//     gameOver = true;
+//   }
+//   else {
+//     gameOver = false;
+//   }
+//   if (mouseX < 0 || mouseY < 0){
+//     gameOver = true;
+//   }
+//   else {
+//     gameOver = false;
+//   }
+//   if (gameOver){
+    
+//   }
+// }
