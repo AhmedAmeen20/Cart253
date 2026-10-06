@@ -5,77 +5,24 @@
  * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
  * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
  */
+let drink = "..."
 
-const Hover = {
-  x: undefined, // will be mouseX
-  y: undefined, // will be mouseY
-  size: 50,
-  fill: "#000000"
-};
+function setup(){
+  createCanvas(500, 300);
+  let temp = random(["Iced", "Hot"]);
 
-let Earlgrey;
-let milk;
-let filteredcoffee;
-let espresso;
+  let liquid = random(["Espresso", "Tea", "Matcha"]);
+  let milk = random(["Regular milk", "Oat milk", "Almond milk", "Coconut milk", "Spoiled milk", "Soy milk",]);
+  let sweetener = random(["Vanilla", "Honey", "Sugar", "Caramel"]);
 
-
-
-
-
-function setup() {
-  createCanvas(400, 400);
-
-  //choice = random(math);
-
-  // Create an array of emoji strings.
-  
-
-  // Choose a random element from the array.
-  
-  // Style the text.
-  textAlign(CENTER);
-  textSize(75);
-
-  // Display the emoji.
-
+  drink = `Moi je prendrai un ${temp}${liquid} avec de ${milk} a la ${sweetener} s'il tu plait`
 }
+
 
 function draw() {
-  background(200);
-  textSize(40);
-  text ("Barista guide", 200, 40);
-    textSize(20);
-    text ("Click on the ingredients to make a drink", 200, 80);
+  background (100, 100, 255)
 
-menu();
-menu2()
-
-  
- 
-  
+  textSize(13);
+  text(drink, 20, 200)
 }
 
-function menu(){
-  textSize(20);
-  text ("Earl grey", 200, 150);
-  text ("Filtered coffee", 200, 200);
-  text ("Espresso", 200, 250);
-}
-function menu2(){
-  textSize(20);
-  text ("Milk", 200, 300);
-}
-
-function mouseClicked(){
-  if (mouseX > 150 && mouseX < 250 && mouseY > 130 && mouseY < 170){
-    console.log("Earl grey");
-
-
-  }
-  if (mouseX > 150 && mouseX < 250 && mouseY > 180 && mouseY < 220){
-    console.log("Filtered coffee");
-  }
-  if (mouseX > 150 && mouseX < 250 && mouseY > 230 && mouseY < 270){
-    console.log("Espresso");
-  }
-} 
