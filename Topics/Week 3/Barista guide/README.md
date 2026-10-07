@@ -1,4 +1,4 @@
-# Math Game
+# Barista game
 
 Ahmed Ameen
 
