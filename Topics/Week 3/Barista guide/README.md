@@ -8,15 +8,7 @@ Ahmed Ameen
 
 A simple funny coffee serving game. You just serve free drinks to french speaking individuals
 
-## Screenshot(s)
-
-This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
-
-> ![Image of a clown face](./assets/images/clown.png)
-
 ## Attribution
-
-This bit should attribute any code, assets or other elements used taken from other sources. For example:
 
 > - This project uses [p5.js](https://p5js.org).
 
