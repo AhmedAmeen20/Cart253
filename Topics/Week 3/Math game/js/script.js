@@ -1,11 +1,13 @@
 /**
- * Title of Project
- * Author Name
+ * Math Game
+ * Ahmed Ameen
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * A simple math game where players solve addition problems.
+ * 
  */
 
+// The constants for the game
+// The Hover object represents the mouse cursor's hover effect
 const Hover = {
   x: undefined, // will be mouseX
   y: undefined, // will be mouseY
@@ -37,6 +39,7 @@ const ans3 = {
   number: 0,
 };
 
+// The varisables for the game
 answers = [ans1, ans2, ans3];
 overlaps = [false, false, false];
 let rightanswer;
@@ -44,7 +47,7 @@ let choice;
 let num1;
 let num2;
 
-
+// This is a function that generates a new math question and provides 1 accurate answer and 2 incorrect answers
 function generateQuestion() {
   num1 = floor(random(20));
   num2 = floor(random(20));
@@ -65,13 +68,8 @@ function generateQuestion() {
 function setup() {
   createCanvas(400, 400);
 
-  //choice = random(math);
+// Starts the game by generating the first question and answers
   generateQuestion();
-
-  // Create an array of emoji strings.
-  
-
-  // Choose a random element from the array.
   
   // Style the text.
   textAlign(CENTER);
@@ -91,7 +89,7 @@ function draw() {
  
   
 }
-
+// this is the cursor that follows the mouse and changes color when it hovers over an answer
 function drawHover(){
   for (let i = 0; i <= overlaps.length - 1; i++) {
     overlaps[i] = checkOverlap(answers[i]);
@@ -104,6 +102,7 @@ function drawHover(){
        { Hover.fill = "#000000";
         Hover.size = 50;
    }
+   // The hover effect
   push();
   noStroke();
   fill(Hover.fill);
@@ -115,15 +114,16 @@ function drawHover(){
   
 }
 
-
+// this is the function that checks if the mouse is hovering over an answer and returns true or false
 function checkOverlap(ans) {
     const d = dist(Hover.x, Hover.y, ans.x, ans.y);
   const overlap = (d < Hover.size/2 + ans.size/2);
   
   return overlap;
   }
-
+// this is the function that lets the user click on an answer and generates a new question when the user clicks on any answer
 function mouseClicked() {
+  // Check if the mouse is over any of the answers
   for (let i = 0; i <= overlaps.length - 1; i++) {
     overlaps[i] = checkOverlap(answers[i]);
   }
@@ -131,7 +131,7 @@ function mouseClicked() {
    generateQuestion();
   }
 }
-
+// this is the function that displays the answers on the screen
 function showans() {
     for (let i = 0; i <= answers.length - 1; i++) {
   push();
@@ -144,6 +144,7 @@ function showans() {
   pop();
     }
 }
+// this is the function that lets the hover circle follow th mouse
 function moveHover() {
   Hover.x = mouseX;
   Hover.y = mouseY;
