@@ -65,7 +65,7 @@ function displayScore() {
   text(floor(score), width/2, height/2);
   pop();
 }
-
+// Handle mouse press and move events
 function mousePressed() {
   lose();
 }
@@ -73,7 +73,7 @@ function mousePressed() {
 function mouseMoved(){
   lose();
 }
-
+// If the mouse is pressed or moved, the game is over
 function lose (){
   gameOver = true;
   score = 0;
