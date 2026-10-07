@@ -23,3 +23,11 @@ Very fun and diffcult week with P5, older things we learnt became easier yet mor
 I am still trying to get comfortable, some stuff i make are better then others, yet the majority of the stuff i make are not as compelling as i want them to be, i want to spend more time just trying out and experimenting with P5.js.
 To be fair, i was a bit lazy with this weeks prototypes, managing my time better this semester is a must at this point.
 I have finally grasped the idea of how functions worked, i don't know if it's the same as functions from school, it could be.
+
+# Week 4
+
+Now it's getting more familiar and kinda my style, i already did something similar with python (specifically RenPy) and so i kinda took the logic from those RenPy games and applied them to Javascript. I actually used to prototype on twine to make games ideas, especially any simulator games. The challenge with js is that it's not really passive like RenPy, of course RenPy being the easier language here but still. I still have the betting game to make in which i could not let the code to function for some reason, defintely not stressing over it.
+I think my ideas for this week were very simple, in which i guess should be a good thing, i don't know why i always aim for complex ideas from the start, and so i'm trying not to implement complex ideas anymore unless it's the finals or something.
+I also really wanted to decorate the prototypes, i have realized that i'm slacking on the aesthetic section of my projects, will probably try to do something about those if i can.
+My areas of difficulty right now is confusing my code with Python, i don't know why but i keep mixing both somehow which confuses me sometimes. But i'm improving alot more with js and being more confident with it.
+My last week was probably my weakest point because i was not really confident with my work as much and not confident with coding, i still need to study it more.
