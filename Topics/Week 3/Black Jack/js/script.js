@@ -1,5 +1,5 @@
 /**
- * Title of Project
+ * Black Jack
  * Author Name
  * 
  * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
@@ -13,7 +13,7 @@ const Hover = {
   fill: "#000000"
 };
 
-const ans1 = {
+const higher = {
   x: 100,
   y: 300,
   size: 75,
@@ -21,7 +21,7 @@ const ans1 = {
   number: 0,
 };
 
-const ans2 = {
+const mybet = {
   x: 200,
   y: 300,
   size: 75,
@@ -29,7 +29,7 @@ const ans2 = {
   number: 0,
 };
 
-const ans3 = {
+const lower = {
   x: 300,
   y: 300,
   size: 75,
@@ -37,18 +37,15 @@ const ans3 = {
   number: 0,
 };
 
-answers = [ans1, ans2, ans3];
+answers = [higher, mybet, lower];
 overlaps = [false, false, false];
 let rightanswer;
 let choice;
-let num1;
-let num2;
+let opponent;
 
 
 function generateQuestion() {
-  num1 = floor(random(20));
-  num2 = floor(random(20));
-  rightanswer = floor(random(3)); 
+  opponent = floor(random(20));
   for (let i = 0; i <= answers.length - 1; i++) {
     if (i == rightanswer) {
       answers[i].number = num1 + num2;
@@ -83,7 +80,8 @@ function setup() {
 
 function draw() {
   background(200);
-  text(num1 + " + " + num2 + " = ?", 200, 100);
+  textSize(40);
+  text("Bet: Higher, or Lower?", 200, 100);
   showans();
   moveHover();
   drawHover();
