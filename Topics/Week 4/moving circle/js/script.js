@@ -17,7 +17,7 @@ const ball = {
 function setup() {
   createCanvas(400, 400);
 
-moveCircle();
+//moveCircle();
   background(0);
   // Filling the background here so it DOESN'T
   // happen every frame
@@ -25,11 +25,19 @@ moveCircle();
 
 function draw() {
   // This is empty!
+
   // All the action happens when the mouse is pressed
   // By not refilling the background every frame we can see
   // the cumulative effect of the mouse presses!
-    ball.x += 1;
+
+  ball.x += 1;
+
+  push();
+  noStroke();
+  ellipse(ball.x, ball.y, ball.size);
+  pop();
 }
+    
 
 /**
  * The mousePressed() function is AUTOMATICALLY CALLED BY p5
@@ -37,11 +45,9 @@ function draw() {
  */
 function mousePressed() {
   // Move the circle randomly along the x axis on each press
+  moveCircle();
 
-  push();
-  noStroke();
-  ellipse(ball.x, ball.y, ball.size);
-  pop();
+  
 }
 
 function moveCircle() {
