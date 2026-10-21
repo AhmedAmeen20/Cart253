@@ -2,7 +2,7 @@
  * Cloud Maker
  * Ahmed Ameen
  * 
- * 
+ * A simple p5.js sketch that draws a moving circle at the mouse position when the mouse is pressed.
  * 
  */
 
