@@ -1,5 +1,5 @@
 /**
- * Moving Circle Game
+ * Cloud Maker
  * Ahmed Ameen
  * 
  * 
@@ -25,7 +25,6 @@ function setup() {
 
 function draw() {
   // This is empty!
-
   // All the action happens when the mouse is pressed
   // By not refilling the background every frame we can see
   // the cumulative effect of the mouse presses!
