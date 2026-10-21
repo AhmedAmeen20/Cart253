@@ -11,7 +11,7 @@ Tracking my journal: [Weekly journal](journal.md)
 *The gallery will be open to the public in the end of this semester.*
 
 
-# Week 1
+# First look
 
 https://ahmedameen20.github.io/Cart253/Topics/version-control/version-control-workflow/
 
@@ -19,7 +19,7 @@ https://ahmedameen20.github.io/Cart253/Topics/version-control/version-control-wo
 
 The first week of messing around with numbers, Ahmed's first piece where he expressed himself *numerically*
 
-# Week 2
+# Week 1
 ## Abstract Art
 ![Project Screenshot](images/Abstract.png)
 https://ahmedameen20.github.io/Cart253/Topics/Week%201/P5%20Abstract%20Art/
@@ -37,7 +37,7 @@ https://ahmedameen20.github.io/Cart253/Topics/Week%201/P5%20Weird%20Art/
 https://github.com/AhmedAmeen20/Cart253/blob/f5fdd2c0cb1d98b56f2d784f78de31e98d4f2e74/Topics/Week%201/P5%20Weird%20Art/js/script.js
 
 
-# Week 3
+# Week 2
 
 ## Make The Japanese Flag Angry!
 ![Project Screenshot](images/japan.png)
@@ -58,7 +58,7 @@ https://github.com/AhmedAmeen20/Cart253/blob/f5fdd2c0cb1d98b56f2d784f78de31e98d4
 
 
 
-# Week 4
+# Week 3
 
 ## Math Game
 ![Project Screenshot](images/math.png)
@@ -69,3 +69,8 @@ https://github.com/AhmedAmeen20/Cart253/blob/f5fdd2c0cb1d98b56f2d784f78de31e98d4
 ![Project Screenshot](images/barista.png)
 https://ahmedameen20.github.io/Cart253/Topics/Week%203/Barista%20guide/
 https://github.com/AhmedAmeen20/Cart253/blob/f5fdd2c0cb1d98b56f2d784f78de31e98d4f2e74/Topics/Week%203/Barista%20guide/js/script.js
+
+# Week 4
+
+## Cloud Maker
+![Project Screenshot](images/barista.png)
