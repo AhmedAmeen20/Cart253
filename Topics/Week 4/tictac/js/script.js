@@ -1,8 +1,8 @@
 /**
- * Math Game
+ * tic tac toe
  * Ahmed Ameen
  * 
- * A simple math game where players solve addition problems.
+ * A simple tic tac toe game where you play as 2 players.
  * 
  */
 "use strict";
