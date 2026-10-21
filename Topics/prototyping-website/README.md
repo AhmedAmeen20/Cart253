@@ -72,5 +72,24 @@ https://github.com/AhmedAmeen20/Cart253/blob/f5fdd2c0cb1d98b56f2d784f78de31e98d4
 
 # Week 4
 
-## Cloud Maker
-![Project Screenshot](images/barista.png)
+## Cloud Maker!
+![Project Screenshot](images/cloud.png)
+https://ahmedameen20.github.io/Cart253/Topics/Week%204/cloud%20maker/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%204/cloud%20maker/js/script.js
+
+## Disco! (not really)
+![Project Screenshot](images/disco.png)
+
+Press spacer bar, S, and C to change colors.
+
+https://ahmedameen20.github.io/Cart253/Topics/Week%204/disco/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%204/disco/js/script.js
+
+## Tic Tac Toe!
+![Project Screenshot](images/tic.png)
+
+https://ahmedameen20.github.io/Cart253/Topics/Week%204/tictac/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%204/tictac/js/script.js
