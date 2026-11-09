@@ -1,7 +1,7 @@
 /**
  * Ahmed Ameen
  * Obstacle Course
- * This is a simple obstacle course where the user moves a rectangle
+ * This is a simple obstacle course where the user has to find hidden circle to win
  */
 
 let target1 = undefined;
@@ -43,7 +43,7 @@ function createFinish(x, y, width, height) {
   y: random(50, 350),
   width: 10,
   height: 10,
-  fill: "#00a708"
+  fill: "#9d8de7"
 };
   return finish;
 }
@@ -62,7 +62,7 @@ function createTarget(x, y, width, height) {
   };
 
   // Keep trying random positions until this target does not overlap any
-  // target that has already been placed.
+  // target that has already been placed. this defintely did not hurt me in some way.
   let overlaps;
   do {
     target.x = random(target.width / 2, 400 - target.width / 2);
@@ -83,13 +83,13 @@ function createTarget(x, y, width, height) {
  * Move the user rectangle, check for overlap, draw the rectangles
  */
 function draw() {
-  // Aaaaaa!
+
   background("#ab9bf1");
   textSize(20);
   textAlign(LEFT, TOP);
   text("HP: " + HP, 10, 10);
-  
-  // Move user
+
+  //cursor
   user.x = mouseX;
   user.y = mouseY;
   
@@ -112,18 +112,11 @@ function draw() {
 
   drawHover(user);
   
-  // Did you see how tidy that draw() is???
 }
 
-/**
- * Checks overlap between the user rectangle and a provided target.
- * Changes the target's fill depending on whether there is an
- * overlap.
- */
+ 
 function checkOverlap(user, target) {
-  // Painstakingly calculate whether each of the four edges of the user
-  // overlap the target. But notice we only need the code for this
-  // ONE TIME because of the function
+  // check if the user and the elements are overlaping, this is specifically for the obstacles and not the finish object
   const overlap = user.x + user.width/2 > target.x - target.width/2 &&
                   user.x - user.width/2 < target.x + target.width/2 &&
                   user.y + user.height/2 > target.y - target.height/2 &&
@@ -157,7 +150,7 @@ function drawElement(element) {
 function drawfinish(finishbutton) {
   push();
   noStroke();
-  fill("#00a708");
+  fill("#9d8de7");
   rectMode(CENTER);
   rect(finishbutton.x, finishbutton.y, finishbutton.width, finishbutton.height);
   pop();
@@ -170,9 +163,7 @@ function drawHover(user) {
   push();
   noStroke();
   fill(user.fill);
-  // THIS IS IMPORTANT
-  // In checkOverlap() we calculate the overlap based on the x, y
-  // coordinated being in the CENTRE of each shape
+
   rectMode(CENTER);
   circle(user.x, user.y, user.width);
   pop();
