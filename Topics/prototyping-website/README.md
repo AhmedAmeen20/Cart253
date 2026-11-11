@@ -93,3 +93,24 @@ https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%204/disco/js/scrip
 https://ahmedameen20.github.io/Cart253/Topics/Week%204/tictac/
 
 https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%204/tictac/js/script.js
+
+## Late Night Swamp Flies
+![Project Screenshot](images/swamp.png)
+
+https://ahmedameen20.github.io/Cart253/Topics/Week%205/late%20night%20swamp/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%205/late%20night%20swamp/js/script.js
+
+## Hide & Seek!
+![Project Screenshot](images/obstacle.png)
+
+https://ahmedameen20.github.io/Cart253/Topics/Week%205/obstacle%20course/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%205/obstacle%20course/js/script.js
+
+## Confused traffic lights!
+![Project Screenshot](images/traffic.png)
+
+https://ahmedameen20.github.io/Cart253/Topics/Week%205/Street%20lights%20flickerig/
+
+https://github.com/AhmedAmeen20/Cart253/blob/main/Topics/Week%205/Street%20lights%20flickerig/js/script.js

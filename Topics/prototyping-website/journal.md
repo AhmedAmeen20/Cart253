@@ -40,3 +40,8 @@ The cloud maker was fun, but it's more of a weird experiment than anything else.
 Decorating is something i enjoy, and i'm planning on revisiting my past works to decorate and maybe update my gallery and m ake it look cool, kinda match a certain vibe perhaps for each week, or follow a series of cool decorations and be versatile and diverse.
 i'm trying not to complexify my ideas cuz the program is getting alot harder and alot of stuff i don't
 understand but it's ok.
+
+# Week 5
+
+I genuinely like some of the ideas here, like the glowing flies or the obstacle hide and seek game, which took way longer than they should have ever. Not my proudest moments because of the amount of time they took to make, i kept either not understanding or not doing things correctly, which demotivated me and gave me very bland ideas which what happened in week 4 kinda. But as soon as i start an idea that i am genuinely capable of doing, then my motivation came back and i feel like im able to do stuff i always wanted to do, like tiny simple games that aren't really all that simple. I love restaurant type games where you either have to take orders or make the orders, and i have tried to do this here but failed twice which is ok, but i atleast tried to make a game (obstacle hide and seek) which if i have more time i would love to work on it more, it could become something i might play when i want to pass time or somehting i don't know.
+Either way, it's almost the end of this class, alot of fun and only started to catch up on making cool stuff lol.
