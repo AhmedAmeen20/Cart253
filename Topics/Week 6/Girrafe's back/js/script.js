@@ -71,8 +71,3 @@ function drawSpot(spot) {
   ellipse(spot.x, spot.y, spot.size);
   pop();
 }
-
-
-function keyPressed(event) {
-
-}
